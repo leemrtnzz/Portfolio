@@ -1635,4 +1635,8 @@ body, html {
   .s\:items-center {
     align-items: center;
   }
+
+  .s\:justify-center {
+    justify-content: center;
+  }
 }
