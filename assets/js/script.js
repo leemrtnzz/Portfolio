@@ -6,6 +6,7 @@ window.onscroll = function() {
     const navItems3 = document.getElementById('nav-items-3');
     const navItems4 = document.getElementById('nav-items-4');
     const navItems5 = document.getElementById('nav-items-5');
+    const navItems6 = document.getElementById('nav-items-6');
 
     const fixnav = header.offsetTop;
     if (window.pageYOffset > fixnav) {
@@ -15,6 +16,7 @@ window.onscroll = function() {
         navItems3.classList.add('nav-convert');
         navItems4.classList.add('nav-convert');
         navItems5.classList.add('nav-convert');
+        navItems6.classList.add('nav-convert');
 
     } else {
         header.classList.remove('nav-fixed');
@@ -23,12 +25,14 @@ window.onscroll = function() {
         navItems3.classList.remove('nav-convert');
         navItems4.classList.remove('nav-convert');
         navItems5.classList.remove('nav-convert');
+        navItems6.classList.remove('nav-convert');
 
         navItems1.classList.add('nav-first');
         navItems2.classList.add('nav-first');
         navItems3.classList.add('nav-first');
         navItems4.classList.add('nav-first');
         navItems5.classList.add('nav-first');
+        navItems6.classList.add('nav-first');
     }
 }
 
