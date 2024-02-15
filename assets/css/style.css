@@ -628,16 +628,8 @@ video {
   z-index: 10;
 }
 
-.col-span-1 {
-  grid-column: span 1 / span 1;
-}
-
-.col-start-2 {
-  grid-column-start: 2;
-}
-
-.col-start-4 {
-  grid-column-start: 4;
+.z-20 {
+  z-index: 20;
 }
 
 .mx-4 {
@@ -655,17 +647,8 @@ video {
   margin-right: auto;
 }
 
-.mx-10 {
-  margin-left: 2.5rem;
-  margin-right: 2.5rem;
-}
-
 .mb-10 {
   margin-bottom: 2.5rem;
-}
-
-.mb-12 {
-  margin-bottom: 3rem;
 }
 
 .mb-16 {
@@ -760,10 +743,6 @@ video {
   width: 100%;
 }
 
-.w-auto {
-  width: auto;
-}
-
 .max-w-\[120px\] {
   max-width: 120px;
 }
@@ -801,20 +780,8 @@ video {
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
-.grid-flow-col {
-  grid-auto-flow: column;
-}
-
 .grid-cols-5 {
   grid-template-columns: repeat(5, minmax(0, 1fr));
-}
-
-.grid-cols-1 {
-  grid-template-columns: repeat(1, minmax(0, 1fr));
-}
-
-.grid-rows-5 {
-  grid-template-rows: repeat(5, minmax(0, 1fr));
 }
 
 .flex-wrap {
@@ -839,10 +806,6 @@ video {
 
 .gap-4 {
   gap: 1rem;
-}
-
-.place-self-auto {
-  place-self: auto;
 }
 
 .self-end {
@@ -913,11 +876,6 @@ video {
 .bg-white {
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
-}
-
-.bg-red-700 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(185 28 28 / var(--tw-bg-opacity));
 }
 
 .bg-gradient-to-r {
@@ -1019,16 +977,6 @@ video {
   padding-bottom: 1.5rem;
 }
 
-.px-6 {
-  padding-left: 1.5rem;
-  padding-right: 1.5rem;
-}
-
-.px-80 {
-  padding-left: 20rem;
-  padding-right: 20rem;
-}
-
 .pb-16 {
   padding-bottom: 4rem;
 }
@@ -1079,30 +1027,6 @@ video {
 
 .pt-5 {
   padding-top: 1.25rem;
-}
-
-.pl-9 {
-  padding-left: 2.25rem;
-}
-
-.pl-24 {
-  padding-left: 6rem;
-}
-
-.pl-2 {
-  padding-left: 0.5rem;
-}
-
-.pl-10 {
-  padding-left: 2.5rem;
-}
-
-.pl-5 {
-  padding-left: 1.25rem;
-}
-
-.pl-3 {
-  padding-left: 0.75rem;
 }
 
 .text-center {
@@ -1546,18 +1470,6 @@ body, html {
     grid-template-columns: repeat(3, minmax(0, 1fr));
   }
 
-  .md\:pl-10 {
-    padding-left: 2.5rem;
-  }
-
-  .md\:pl-20 {
-    padding-left: 5rem;
-  }
-
-  .md\:pl-32 {
-    padding-left: 8rem;
-  }
-
   .md\:pl-36 {
     padding-left: 9rem;
   }
@@ -1664,19 +1576,5 @@ body, html {
   .xl\:mx-8 {
     margin-left: 2rem;
     margin-right: 2rem;
-  }
-}
-
-@media (min-width: 414) {
-  .s\:flex {
-    display: flex;
-  }
-
-  .s\:items-center {
-    align-items: center;
-  }
-
-  .s\:justify-center {
-    justify-content: center;
   }
 }
