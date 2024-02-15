@@ -739,6 +739,10 @@ video {
   width: 100%;
 }
 
+.w-auto {
+  width: auto;
+}
+
 .max-w-\[120px\] {
   max-width: 120px;
 }
@@ -790,6 +794,10 @@ video {
 
 .justify-between {
   justify-content: space-between;
+}
+
+.place-self-auto {
+  place-self: auto;
 }
 
 .self-end {
@@ -1011,6 +1019,14 @@ video {
 
 .pt-5 {
   padding-top: 1.25rem;
+}
+
+.pl-9 {
+  padding-left: 2.25rem;
+}
+
+.pl-24 {
+  padding-left: 6rem;
 }
 
 .text-center {
@@ -1452,6 +1468,22 @@ body, html {
 
   .md\:grid-cols-3 {
     grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
+  .md\:pl-10 {
+    padding-left: 2.5rem;
+  }
+
+  .md\:pl-20 {
+    padding-left: 5rem;
+  }
+
+  .md\:pl-32 {
+    padding-left: 8rem;
+  }
+
+  .md\:pl-36 {
+    padding-left: 9rem;
   }
 
   .md\:text-xl {
